@@ -7,10 +7,10 @@ import os
 
 def login():
     email=driver.find_element(By.NAME,"email")
-    email.send_keys("mohsinarifofficial@gmail.com")
+    email.send_keys("example@gmail.com")
     time.sleep(0.5)
     password=driver.find_element(By.NAME,"password")
-    password.send_keys("Tu@#6969")
+    password.send_keys("password")
     time.sleep(0.5)
     login_btn=driver.find_element(By.XPATH,"//div[text()='Log In']")
     login_btn.click()
